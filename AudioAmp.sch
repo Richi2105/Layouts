@@ -15977,6 +15977,11 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="116.84" y="58.42"/>
 <label x="109.22" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="18"/>
+<wire x1="35.56" y1="287.02" x2="45.72" y2="287.02" width="0.1524" layer="91"/>
+<label x="40.64" y="287.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -16016,6 +16021,11 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="121.92" y="60.96"/>
 <wire x1="121.92" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 <label x="109.22" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="16"/>
+<wire x1="35.56" y1="289.56" x2="45.72" y2="289.56" width="0.1524" layer="91"/>
+<label x="40.64" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC3.3" class="0">
