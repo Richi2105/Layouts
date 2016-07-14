@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<<<<<<< HEAD
 <eagle version="7.6.0">
-=======
-<eagle version="7.5.0">
->>>>>>> 82da413ae47ad7c177bf83746423e541f8706c7a
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17197,7 +17193,6 @@ Source: 008-0260-0_E.pdf</description>
 </nets>
 </sheet>
 </sheets>
-<<<<<<< HEAD
 <errors>
 <approved hash="102,1,91.44,287.02,GND1,GND,,,,"/>
 <approved hash="102,1,104.14,287.02,GND33,GND,,,,"/>
@@ -17226,8 +17221,6 @@ Source: 008-0260-0_E.pdf</description>
 <approved hash="113,1,31.5162,226.255,AUXI2S_OUT,,,,,"/>
 <approved hash="113,1,29.8027,129.735,SL1,,,,,"/>
 </errors>
-=======
->>>>>>> 82da413ae47ad7c177bf83746423e541f8706c7a
 </schematic>
 </drawing>
 </eagle>
