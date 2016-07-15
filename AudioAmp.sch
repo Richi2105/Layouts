@@ -15797,7 +15797,7 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="NAME" x="80.2386" y="166.37" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="80.518" y="171.45" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND22" gate="1" x="50.8" y="144.78"/>
+<instance part="GND22" gate="1" x="55.88" y="147.32" rot="R90"/>
 <instance part="GND24" gate="1" x="73.66" y="218.44" rot="R270"/>
 <instance part="R25" gate="G$1" x="58.42" y="284.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.8386" y="283.21" size="1.778" layer="95" rot="R270"/>
@@ -16056,7 +16056,7 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="VOLTAGE" gate="1" pin="4"/>
-<wire x1="33.02" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -16206,11 +16206,6 @@ Source: 008-0260-0_E.pdf</description>
 <label x="226.06" y="294.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="VOLTAGE" gate="1" pin="3"/>
-<wire x1="33.02" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<label x="40.64" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
@@ -16229,6 +16224,11 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="63.5" y1="292.1" x2="58.42" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="292.1" x2="58.42" y2="289.56" width="0.1524" layer="91"/>
 <label x="63.5" y="292.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="VOLTAGE" gate="1" pin="2"/>
+<wire x1="33.02" y1="142.24" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
+<label x="40.64" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -17190,6 +17190,13 @@ Source: 008-0260-0_E.pdf</description>
 <label x="12.7" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="GND1" class="0">
+<segment>
+<pinref part="VOLTAGE" gate="1" pin="3"/>
+<wire x1="33.02" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<label x="40.64" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -17209,6 +17216,7 @@ Source: 008-0260-0_E.pdf</description>
 <approved hash="104,1,119.38,287.02,U$2,VDDIO1,VCC3.3,,,"/>
 <approved hash="104,1,121.92,287.02,U$2,VDDIO2,VCC3.3,,,"/>
 <approved hash="104,1,134.62,287.02,U$2,PVDD,VCC3.3,,,"/>
+<approved hash="106,1,33.02,144.78,GND1,,,,,"/>
 <approved hash="111,1,119.38,198.12,AGND,,,,,"/>
 <approved hash="113,1,327.702,93.7853,SUB,,,,,"/>
 <approved hash="113,1,31.2216,188.155,AUXANALOG,,,,,"/>
